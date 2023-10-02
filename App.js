@@ -86,6 +86,7 @@ const App = () => {
 
   const calculateBMI = () => {
     let calculated = 0;
+  
     if (standard) {
       const ht_in = parseFloat(height_in);
       const ht = parseFloat(height) * 12;
