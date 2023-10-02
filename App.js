@@ -12,7 +12,7 @@ import {
   TextInput,
 } from 'react-native';
 
-// States
+// Creating States
 
 const App = () => {
   const [standard, setStandard] = useState(true);
